@@ -62,13 +62,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-
-    "husky": {
-      "hooks": {
-        "pre-commit": "ng lint",
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-
-      }
+  "husky": {
+    "hooks": {
+      "pre-commit": "ng lint"
     }
-
+  }
 }
