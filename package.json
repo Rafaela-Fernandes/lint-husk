@@ -73,7 +73,7 @@
   },
   "lint-staged": {
     "src/**/*.ts": [
-      "ng lint"
+      "ng lintss"
 
     ]
   }
