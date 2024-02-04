@@ -48,6 +48,7 @@
     "@typescript-eslint/parser": "6.19.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
     "eslint": "^8.56.0",
     "husky": "^8.0.0",
     "jasmine-core": "~5.1.0",
@@ -61,13 +62,13 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-customizable"
     }
   },
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"""""""""""""""`
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
