@@ -72,7 +72,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.ts": [
+    "*.{js,ts,html}": [
       "ng lint",
       "ng test"
 
