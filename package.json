@@ -67,13 +67,13 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "ng lint",
+      "pre-commit": "npm run lint",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
     "src/**/*.ts": [
-      "ng lint"
+      "npm run lint"
 
     ]
   }
