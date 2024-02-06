@@ -10,8 +10,8 @@
     "serve:ssr:configuration": "node dist/configuration/server/server.mjs",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
-    "commit": "cz"
-
+    "commit": "cz",
+    "prepare": "husky && husky install"
   },
   "private": true,
   "dependencies": {
