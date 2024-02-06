@@ -73,9 +73,7 @@
   },
   "lint-staged": {
     "*.{js,ts,html}": [
-      "eslint",
-      "npm run lint",
-      "ng test"
+      "ng lint"
 
     ]
   }
